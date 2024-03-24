@@ -19,7 +19,7 @@ body {
 header {
   background-color: #004a7c;
   color: #fff;
-  padding: 20px 0;
+  padding: 15px 0; /* Mengurangi padding header agar lebih ramping */
 }
 
 header nav ul {
@@ -28,43 +28,31 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  margin-left: 20px;
+  margin-left: 15px; /* Mengurangi margin untuk navbar */
 }
 
 header nav ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  font-size: 14px; /* Mengurangi ukuran font pada navbar */
 }
 
 .main-content {
-  padding: 20px;
+  padding: 15px; /* Mengurangi padding konten utama */
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+.main-content h1 {
+  font-size: 18px; /* Mengurangi ukuran font judul utama */
 }
 
-table th,
-table td {
-  padding: 10px;
-  border: 1px solid #ddd;
-  text-align: left;
+.main-content h2,
+.main-content h3 {
+  font-size: 16px; /* Mengurangi ukuran font judul sekunder */
 }
 
-table th {
-  background-color: #004a7c;
-  color: #fff;
-}
-
-table tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-table tr:hover {
-  background-color: #ddd;
+.main-content p {
+  font-size: 14px; /* Mengurangi ukuran font paragraf */
 }
 
 /* Aturan CSS untuk layar kecil */
@@ -77,9 +65,24 @@ table tr:hover {
     margin-left: 10px;
   }
 
-  table th,
-  table td {
-    font-size: 14px; /* Ukuran font diubah untuk tabel */
-    padding: 8px; /* Padding diubah agar lebih kompak */
+  header nav ul li a {
+    font-size: 12px; /* Mengurangi ukuran font pada navbar untuk layar kecil */
+  }
+
+  .main-content {
+    padding: 10px; /* Mengurangi padding konten utama untuk layar kecil */
+  }
+
+  .main-content h1 {
+    font-size: 16px; /* Mengurangi ukuran font judul utama untuk layar kecil */
+  }
+
+  .main-content h2,
+  .main-content h3 {
+    font-size: 14px; /* Mengurangi ukuran font judul sekunder untuk layar kecil */
+  }
+
+  .main-content p {
+    font-size: 12px; /* Mengurangi ukuran font paragraf untuk layar kecil */
   }
 }
