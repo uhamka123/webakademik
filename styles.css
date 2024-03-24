@@ -82,3 +82,13 @@ table tr:hover {
     padding: 8px; /* Padding diubah agar lebih kompak */
   }
 }
+.announcement {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.announcement h2 {
+  color: #004a7c;
+}
